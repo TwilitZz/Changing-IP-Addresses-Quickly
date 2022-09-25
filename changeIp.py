@@ -11,7 +11,7 @@ conf.read("config\\ip_config.ini")
 
 allConf = conf.sections()
 i = 0
-print("请选择要加载的环境：")
+print("选择要加载的环境：")
 for section in allConf:
     print((str(i+1)) + ": " + section)
     i = i+1
